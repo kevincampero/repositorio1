@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+nav{
+    background-color: #0c86ba87;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    /*border: solid 2px black;*/
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    margin-left: 10%;
+}
+nav .lista{
+    list-style: none;
+    
+}
+nav .lista li{
+    display: inline-block;
+    margin: 12px;
+    
+    
+}
+nav .lista li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border-radius: 10%;
+    transition: ease 0.31s;
+    font-family: 'Patua One', cursive;
+    
+}
+nav .lista li a:hover{
+    text-decoration: none;
+    color: #0ca3d2;
+    background-color: white;
+    transition: ease 0.31s;
+    
+}
+section{
+    padding-top: -10%;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/wallpaper1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(180vh at 50% -83vh);
+}
+
+section .content{
+    /*border: black solid 2px;*/
+    max-width: 1000px;
+    text-align: center;
+}
+section .content h2{
+
+    font-family: 'Patua One', cursive;
+    font-size: 5em;
+    color: #fff;
+    font-weight: 700;
+
+}
+section .content h2 .title{
+    
+    color: rgb(150, 6, 6);
+    
+
+}
+.content .materia{
+    font-weight: bold;
+    color: rgb(150, 6, 6);
+    
+}
+.typed{
+    font-size: 55%;
+}
+
+h3{
+    color: rgb(150, 6, 6);
+    width: fit-content;
+    border: solid 2px rgb(150, 6, 6);
+    font-weight: 1800;
+    padding: 0.5%;
+}
