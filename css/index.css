@@ -96,3 +96,15 @@ h3{
     font-weight: 1800;
     padding: 0.5%;
 }
+
+@media (max-width: 777px) {
+    section{
+        background-position: center;
+    }
+    section .content h2{
+        font-size: 50px;
+    }
+    nav .lista li{
+        display: none;
+    }
+}
