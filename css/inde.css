@@ -98,16 +98,17 @@ h3{
     font-weight: 1800;
     padding: 0.5%;
 }
+h3:hover{
+    color: black;
+    background-color: #f4d914;
+    cursor: pointer;
+    border: solid 2px black;
+
+}
 
 @media (max-width: 777px) {
     nav{
         justify-content: center;
-    }
-    section{
-        background-position: center;
-    }
-    section .content h2{
-        font-size: 40px;
     }
     nav .lista li{
         display: none;
@@ -115,5 +116,11 @@ h3{
     nav img{
         width: 25%;
         margin-left: 0;
+    }
+    section{
+        background-position: center;
+    }
+    section .content h2{
+        font-size: 40px;
     }
 }
